@@ -32,5 +32,10 @@ namespace TeamCity
             double actual = Square_equations.Discriminant(a, b, c);
             Assert.Equal(expected, actual);
         }
+
+        public void check()
+        {
+            int a;
+        }
     }
 }

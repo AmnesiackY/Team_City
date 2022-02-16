@@ -36,6 +36,7 @@ namespace TeamCity
         public void check()
         {
             int a;
+            int b;
         }
     }
 }

@@ -13,5 +13,6 @@ namespace TeamCity
             //a * Math.Pow(x, 2) + b * x + c;
             return Math.Pow(b, 2) - (4 * a * c);
         }
+
     }
 }

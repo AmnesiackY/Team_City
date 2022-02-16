@@ -35,7 +35,7 @@ namespace TeamCity
 
         public void check()
         {
-            int a;
+            Console.WriteLine("ABOBA");
         }
     }
 }

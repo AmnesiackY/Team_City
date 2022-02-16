@@ -26,13 +26,14 @@ namespace TeamCity
         [InlineData(4, 4, 1, 0)]
         [InlineData(9, 9, 1, 45)]
         [InlineData(9, 9, 2, 9)]
-        [InlineData(8, 8, 2, 0 )]
+        [InlineData(8, 8, 2, 0)]
         public void Test1(int a, int b, int c, int expected)
         {
             double actual = Square_equations.Discriminant(a, b, c);
             Assert.Equal(expected, actual);
         }
 
+        [Fact]
         public void check()
         {
             Console.WriteLine("ABOBA");
